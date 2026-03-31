@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: currencyconverter
+exchange:
+  api:
+    url: https://v6.exchangerate-api.com/v6
+    key: b637c429695a80938edbeb6c
+
+server:
+  port: 8080

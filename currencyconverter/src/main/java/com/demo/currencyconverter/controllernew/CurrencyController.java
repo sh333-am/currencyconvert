@@ -34,6 +34,7 @@ public class CurrencyController {
 
         @GetMapping("/getRates")
         public Map<String ,Double> liveRates(@RequestParam String base){
+            log.info("Here is the all live rates");
             return currencyRateService.getRates(base);
 
             }
